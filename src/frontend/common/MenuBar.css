@@ -1,0 +1,14 @@
+.menubar-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3rem;
+  max-width: 100%;
+  background-color: #e64398;
+}
+
+.menu-item {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+}

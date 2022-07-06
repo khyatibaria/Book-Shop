@@ -1,0 +1,15 @@
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 50%;
+height: 80vh;
+margin: 0 auto;
+}
+.book-logo{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: blueviolet;  
+}
