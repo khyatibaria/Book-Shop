@@ -1,0 +1,23 @@
+.filter-container {
+  padding: 0.5rem;
+}
+.filter-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  padding: 0.25rem;
+  background-color: palegreen;
+}
+.filter-input {
+  height: 1.5rem;
+  width: 100%;
+}
+.filter-input:focus {
+  outline: none;
+  /* background-color: var(--primary-color); */
+}
+.filter-body {
+  height: calc(100% - 3rem);
+  background-color: pink;
+}

@@ -1,0 +1,33 @@
+.bill-summary-container {
+  width: 100%;
+}
+.bill-summary-head {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.bill-summary-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.bill-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 0.5rem 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-bottom: 1px solid black;
+}
+.total-bill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0.75rem;
+}
